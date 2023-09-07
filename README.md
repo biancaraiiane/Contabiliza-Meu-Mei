@@ -1,38 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cleo-Contabilidade
+A landing page offers assistance and services related to CNPJ MEI (Microentrepreneur Individual).
 
-## Getting Started
+<p align="center">
+ <img src="https://github.com/biancaraiiane/Contabiliza-Meu-Mei/assets/105467518/56f6cebb-19b2-4a8d-adac-769e90123711"
 
-First, run the development server:
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Projeto Front-end
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In the creation of this landing page, the Next.js framework was utilized, with TypeScript serving as the foundation of development, alongside the setup of linting (ESLint) and code formatting (Prettier).
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# React Components:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+The code uses React components to build the page's interface. Some of these components include Header, Card, and MyCarousel.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# State Management:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-The code makes use of state (useState hook) to store a list of card information (listaCard), which is displayed on the page.
 
-## Learn More
+# Scroll Behavior:
 
-To learn more about Next.js, take a look at the following resources:
+-The scrollToSection function is used to smoothly scroll the page to a specific section when the user clicks the "Veja todas as vantagens" (See all advantages) button.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Icons:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-The code imports icons from various libraries such as react-icons and MdEmail to add visual elements to the page, including social media icons, a map icon, and an email icon.
 
-## Deploy on Vercel
+# Link and Anchor Tags:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-There are links (<a>) in various places that direct users to different external resources, such as social media pages and messaging apps.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Conditional Rendering:
+
+-The code uses conditionals to split the list of cards into two columns and render them in separate sections of the page.
+
+# Event Handling:
+
+-Buttons and links on the page have event handlers that respond to user actions like clicks.
+
+# Carousel:
+
+-The MyCarousel component is a carousel of images or content designed for mobile devices, and it was implemented using the carousel provided by the Bootstrap framework.
+
+# Style:
+
+-Styles are applied to the components and elements of the page through the styled-components library.
+
+# Responsiveness:
+
+-The page has been crafted with a responsive design that seamlessly adapts to a variety of screen sizes through media queries.
+>>>>>>> a2803ffa471a1cdcad0e89d6086e40c48596c213
