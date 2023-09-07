@@ -128,7 +128,7 @@ export default function Home() {
               </S.Read>
             </div>
             <S.Icons>
-              <a href="https://w.app/2wVKCy" target="_blank" rel="noreferrer">
+              <a href="https://wa.link/yumh3r" target="_blank" rel="noreferrer">
                 <IoLogoWhatsapp size={96} color="#DAA521" />
               </a>
             </S.Icons>
